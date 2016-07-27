@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DMS Software Bot.  A mix of the Facebook Messenger Platform Sample, the EstherBot and some creativity
 
 This project is an example server for Messenger Platform built in Node.js. It was forked from the Facebook example.
@@ -145,3 +146,7 @@ Great question! Now that you've found your bug and fixed it, you want to redeplo
 
         git push heroku master
 
+=======
+# chatbotz
+AI ChatBotz
+>>>>>>> a3a77e654a045a2efcd84e7f8b277d069dbe6c9f
