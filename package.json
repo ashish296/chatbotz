@@ -1,0 +1,30 @@
+i{
+  "name": "chatbotz",
+  "version": "1.0.0",
+  "description": "AI ChatBotz",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish296/chatbotz.git"
+  },
+  "keywords": [
+    "AI",
+    "ChatBotz"
+  ],
+  "author": "ashish.verma@nidarooms.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish296/chatbotz/issues"
+  },
+  "homepage": "https://github.com/ashish296/chatbotz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  }
+}
