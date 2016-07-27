@@ -23,7 +23,9 @@
   "homepage": "https://github.com/ashish296/chatbotz#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "config": "^1.21.0",
     "express": "^4.14.0",
+    "lodash": "^4.14.0",
     "request": "^2.74.0"
   },
   "devDependencies": {}
