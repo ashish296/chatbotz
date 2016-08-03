@@ -248,6 +248,17 @@ function handleReceivedMessage(event) {
         sendGifMessage(senderID);
         break;
 
+// added by ashish start
+ case 'greeting':
+        setMessengerGreeting(senderID);
+        break;
+
+ case 'welcome':
+        setWelcomeMessage(senderID);
+        break;
+
+//added by ashish end 
+
       case 'audio':
         sendAudioMessage(senderID);
         break;
@@ -429,6 +440,33 @@ function sendGifMessage(recipientId) {
 
   callSendAPI(messageData);
 }
+
+/*  added by ashish --start */
+// this sets the messenger greeting 
+function setMessengerGreeting(){
+  var messageData = {
+    setting_type: "greeting",
+    greeting: {
+      text: "Hi mom"
+    }
+  }
+  callSendAPI(messageData);
+}
+
+// this sets the Get Started button and welcome message
+function setWelcomeMessage(){
+  var messageData = {
+    setting_type: "call_to_actions",
+    thread_state: "new_thread",
+    call_to_actions: [
+      {payload: "hi"}
+    ]
+  }
+  callSendAPI(messageData);
+}
+/* added by ashish --end */
+
+
 
 /*
  * Send audio using the Send API.
