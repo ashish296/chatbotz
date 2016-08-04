@@ -1,0 +1,33 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+          {
+            "title": "Welcome to Pizza Bots !!! ",
+            "subtitle": "You can order Pizza ,Get deals ,Find Restaurant & More ",
+            "item_url": "http://www.tie.ai/",               
+            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/pizza-banner.png",
+            "buttons": [
+            {
+              "type": "posback",
+              "title": "Order",
+              "payload": "What is this Robot?"
+            },
+            {
+              "type": "postback",
+              "title": "Deals",
+              "payload": "business"
+            },
+            {
+              "type": "postback",
+              "title": "More",
+              "payload": "I want one"
+            }
+            ]
+          }
+          ]
+        }
+      }
+    }
