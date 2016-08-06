@@ -1,6 +1,7 @@
 {
       "text": "A customer support robot will be the standard in the coming years. The robot can guide your clients to the proper with a minimum of fuss. Support costs will be reduced along with client wait times.",
-      "quick_replies": [
+"image_url": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/robot.png",      
+"quick_replies": [
         {
           "content_type":"text",
           "title":"Get started!",
