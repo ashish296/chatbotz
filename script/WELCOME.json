@@ -24,6 +24,11 @@
               "type": "postback",
               "title": "More",
               "payload": "I want one"
+            },
+           {
+              "type": "postback",
+              "title": "Menu",
+              "payload": "I want one"
             }
             ]
           }

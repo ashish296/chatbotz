@@ -1,0 +1,26 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+          {
+            "title": "Menu",
+            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/pizza-banner.png",
+              "quick_replies": [
+        {
+          "content_type":"text",
+          "title":"Vegitarian",
+          "payload":"contact"
+        },
+        {
+          "content_type":"text",
+          "title":"Non-Vegetarian",
+          "payload":"Home"
+        }
+      ]
+          }
+          ]
+      }
+   }
+}
