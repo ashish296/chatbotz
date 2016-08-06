@@ -6,8 +6,8 @@
           "elements": [
           {
             "title": "Contact",
-
-            "quick_replies": [
+            "image_url": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/canphone.png",
+            "buttons": [
             {
               "type": "postback",
               "title": "Send a message",
