@@ -447,7 +447,7 @@ function setMessengerGreeting(){
   var messageData = {
     setting_type: "greeting",
     greeting: {
-      text: "Hi mom"
+      text: "WELCOME"
     }
   }
   callSendAPI(messageData);
@@ -459,7 +459,7 @@ function setWelcomeMessage(){
     setting_type: "call_to_actions",
     thread_state: "new_thread",
     call_to_actions: [
-      {payload: "hi"}
+      {payload: "WELCOME"}
     ]
   }
   callSendAPI(messageData);
