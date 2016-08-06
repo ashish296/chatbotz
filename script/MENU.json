@@ -1,19 +1,15 @@
 {
-        type: "image",
-        payload: {
-          url: "http://messengerdemo.parseapp.com/img/instagram_logo.gif"
-        }
       
       "text": "MENU",      
 "quick_replies": [
         {
           "content_type":"text",
-          "title":"Get started!",
+          "title":"Vegitarian",
           "payload":"contact"
         },
         {
           "content_type":"text",
-          "title":"Home",
+          "title":"Non-Vegitarian",
           "payload":"Home"
         }
       ]
