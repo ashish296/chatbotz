@@ -1,0 +1,81 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+          {
+            "title": "VEG EXTRAVAGANZA",
+            "subtitle": "Toppings: Black Olive, Crisp Capsicum, Fresh Tomato, Golden Corn, Cheese",
+            "item_url": "http://www.tie.ai",               
+            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/feast_veg_1.png",
+            "buttons": [
+            {
+              "type": "postback",
+              "title": "Order",
+              "payload": "What is this Robot?"
+            },
+            {
+              "type": "postback",
+              "title": "Back To Menu",
+              "payload": "business"
+            },
+            {
+              "type": "postback",
+              "title": "More",
+              "payload": "I want one"
+            }
+            ]
+          }, 
+             {
+            "title": "CLOUD 9",
+            "subtitle": "Toppings: Babycorns, Crisp Capsicum, Onion, Jalapeno, Paneer, Fresh Tomato",
+            "item_url": "http://www.tie.ai",
+            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/feast_veg_2.png",
+            "buttons": [
+            {
+              "type": "postback",
+              "title": "Order",
+              "payload": "What is this Robot?"
+            },
+            {
+              "type": "postback",
+              "title": "Back To Menu",
+              "payload": "business"
+            },
+            {
+              "type": "postback",
+              "title": "More",
+              "payload": "I want one"
+            }
+            ]
+          },
+              {
+            "title": "CHEF'S VEG WONDER",
+            "subtitle": "Toppings: Babycorns, Crisp Capsicum, Mushrooms, Paneer",
+            "item_url": "http://www.tie.ai",
+            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/feast_veg_1.png",
+            "buttons": [
+            {
+              "type": "postback",
+              "title": "Order",
+              "payload": "What is this Robot?"
+            },
+            {
+              "type": "postback",
+              "title": "Back To Menu",
+              "payload": "business"
+            },
+            {
+              "type": "postback",
+              "title": "More",
+              "payload": "I want one"
+            }
+            ]
+          }
+          ]
+        }
+      }
+    }
+
+
