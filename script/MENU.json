@@ -1,26 +1,15 @@
 {
-      "attachment": {
-        "type": "template",
-        "payload": {
-         "template_type": "generic",
-          "elements": [
-          {
-            "title": "Menu",
-            "image_url": "https://raw.githubusercontent.com/ashish296/chatbotz/master/img/pizza-banner.png",
-              "quick_replies": [
+      "text": "A customer support robot will be the standard in the coming years. The robot can guide your clients to the proper with a minimum of fuss. Support costs will be reduced along with client wait times.",
+      "quick_replies": [
         {
           "content_type":"text",
-          "title":"Vegitarian",
+          "title":"Get started!",
           "payload":"contact"
         },
         {
           "content_type":"text",
-          "title":"Non-Vegetarian",
+          "title":"Home",
           "payload":"Home"
         }
       ]
-          }
-          ]
-      }
-   }
 }
