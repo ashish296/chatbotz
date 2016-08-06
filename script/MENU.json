@@ -4,7 +4,7 @@
         payload: {
           url: "http://messengerdemo.parseapp.com/img/instagram_logo.gif"
         }
-      }
+      
       "text": "MENU",      
 "quick_replies": [
         {
@@ -18,4 +18,5 @@
           "payload":"Home"
         }
       ]
+}
 }
